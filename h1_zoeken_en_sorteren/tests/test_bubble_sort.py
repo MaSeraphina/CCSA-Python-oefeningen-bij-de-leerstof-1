@@ -55,4 +55,3 @@ def _run(stdin_text: str) -> list[str]:
 def test_bubble_sort_cases(stdin_text, expected_lines):
     lines = _run(stdin_text)
     assert lines == expected_lines
-
