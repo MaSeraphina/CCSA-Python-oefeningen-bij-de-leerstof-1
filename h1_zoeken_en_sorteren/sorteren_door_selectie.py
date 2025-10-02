@@ -11,8 +11,6 @@
 #         a[pos_max], a[i] = a[i], a[pos_max]
 #         print(a)
 
-
-
 def selection_sort_vooraan(a):
     n = len(a)
     for i in range(n-1):
@@ -25,11 +23,6 @@ def selection_sort_vooraan(a):
         #nieuw max gevonden
         a[pos_min], a[i] = a[i], a[pos_min]
         print(a)
-
-            
-
-
-
 
 # selection_sort([44,55,88,11,12,90, 201, 1])
 # selection_sort_vooraan([44,55,88,11,12,90, 201, 1])
